@@ -4,8 +4,6 @@ This lightweight Rust project automatically detects and runs the SPT server exec
 
 ---
 # Downloads
-You can download the latest version of this project from the [Releases](https://github.com/yourusername/yourrepo/releases) page.
-
 ### Available Downloads:
 - **[Latest Release](https://github.com/MetalheadTwinkx/SPT-Server-Manager/releases/latest)**: Includes pre-built binaries and source code.
 ---
