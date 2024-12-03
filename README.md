@@ -2,7 +2,12 @@
 
 This lightweight Rust project automatically detects and runs the SPT server executable in the same directory. It allows you to interact with the server through a terminal interface.
 
+---
+# Downloads
+You can download the latest version of this project from the [Releases](https://github.com/yourusername/yourrepo/releases) page.
 
+### Available Downloads:
+- **[Latest Release](https://github.com/MetalheadTwinkx/SPT-Server-Manager/releases/latest)**: Includes pre-built binaries and source code.
 ---
 ## Key Features
 
@@ -18,7 +23,7 @@ This lightweight Rust project automatically detects and runs the SPT server exec
 - `[command]` - Any other input will be sent to the server as a command.
 
 ## Usage
- Drop and Run the executable in the same directory as your SPT server executable.
+Drop and Run the executable in the same directory as your SPT server executable.
 >If you Run it from an external directory, you will be prompted to enter a path to SPT.server.exe
 
 ### Example Commands
