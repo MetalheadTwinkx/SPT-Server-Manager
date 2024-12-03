@@ -1,0 +1,18 @@
+[package]
+name = "SPT_Server_Manager"
+authors = ["Metalhead Twink★"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#as independant as a rich single mother
+[build-dependencies]
+winres = "0.1.12"
+
+[profile.release]
+opt-level = 3       # Maximum optimizations
+lto = true          # Link-Time Optimization for smaller, faster binaries
+panic = "abort"     # Abort on panic (faster)
+debug = false       # Disable debug information in the release build
+codegen-units = 1   # More aggressive optimization
+incremental = false # Faster execution, but slower compile time
